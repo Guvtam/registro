@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="ion-padding ion-text-center">
+            Portal Alumno
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <br>
+    <div class="logo">
+    <img  src="assets\Logo_DuocUC.jpg">
+</div>
+    <br>
+    <ion-label class="ion-padding-top ion-text-center">
+        <h3>Registro De Asistencia</h3>
+    </ion-label>
+
+    <form [formGroup]="loginForm">
+        <ion-item>
+            <ion-label position="floating">Usuario </ion-label>
+            <ion-input formControlName="nombre" type="text" [(ngModel)]="nombre"></ion-input>
+        </ion-item>
+        <div>
+            <small class="ion-padding">Mínimo 4 y máximo 15 caracteres</small>
+        </div>
+
+        <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input formControlName="password" type="password"></ion-input>
+        </ion-item>
+        <div>
+            <small class="ion-padding">Mínimo 6 y máximo 10 caracteres</small>
+        </div>
+        <br>
+        
+        <br>
+        <div style="text-align: center !important;">
+            <ion-button class="boton" [disabled]="!loginForm.valid" type="small" (click)="ingresar()">Ingresar</ion-button>
+        </div>
+        <br>
+        
+        <ion-item lines=none>
+            <a href="recuperar" class="enlace">Recuperar Contraseña</a>
+        </ion-item>
+
+    </form>
+
+
+</ion-content>

@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Modal</ion-title>
+        <ion-buttons slot="end">
+            <ion-icon class="close" name="close-circle" size="large" (click)="closeModal()"></ion-icon>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-card>
+        <ion-item lines="none">
+            <h1>Código QR</h1>
+        </ion-item>
+        <ion-card>
+            <img src="https://qrcode.tec-it.com/API/QRCode?data=Programaci%c3%b3n+de+aplicaciones+Moviles%0aSecci%c3%b3n+007D%0aClase%3a+11%3a01+a+13%3a15+horas.&backcolor=%23ffffff" />
+        </ion-card>
+        <h3>Curso: {{Curso}}</h3>
+        <h3>Sección: {{Seccion}}</h3>
+        <h3>Fecha: {{Fecha}}</h3>
+        <h3>Hora: {{Hora}}</h3>
+
+    </ion-card>
+
+
+</ion-content>

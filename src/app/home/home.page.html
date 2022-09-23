@@ -1,0 +1,53 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="ion-padding-top ion-text-center">
+            Perfil Alumno
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-grid fixed>
+        <ion-row>
+            <ion-col size="6"></ion-col>
+            <ion-col size="6"></ion-col>
+        </ion-row>
+
+        <ion-row class="color">
+            <ion-col class="col-6">
+                <br>
+                <img class="ion-padding ion-img-center" src="assets\Logo_DuocUC.jpg">
+            </ion-col>
+            <ion-col class="col-9">
+                <ion-card-content>
+                    <ion-item lines=none>
+                        <ion-icon name="person"></ion-icon>
+                        <ion-label>{{dato}}</ion-label>
+                    </ion-item>
+                </ion-card-content>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+
+
+
+    <ion-label class="ion-padding-top ion-text-center">
+        <h3>Registra tu asistencia</h3>
+    </ion-label>
+    <br>
+    <ion-card-content>
+        <ion-button id="b1" expand="full" class="clos" (click)="openModal()">Program. De Aplicaciones Móviles</ion-button>
+        <ion-button id="b1" expand="full" class="clos" (click)="openModal1()">Arquitectura</ion-button>
+        <ion-button id="b1" expand="full" class="clos" (click)="openModal2()">Calidad de Software</ion-button>
+        <ion-button id="b1" expand="full" class="clos" (click)="ingresarHistorial()">Historial de Asistencias</ion-button>
+    </ion-card-content>
+    <ion-row>
+        <ion-col>
+            <ion-item lines=none>
+                <a href="login" class="enlace">Cerrar Sesión</a>
+            </ion-item>
+        </ion-col>
+    </ion-row>
+</ion-content>

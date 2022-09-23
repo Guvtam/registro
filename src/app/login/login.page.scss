@@ -1,0 +1,32 @@
+a.color {
+    background-color: midnightblue;
+}
+
+a.enlace {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-message {
+    color: var(--ion--color-danger);
+}
+
+ion-header {
+    ion-toolbar {
+        --background: rgb(0, 7, 41);
+    }
+}
+
+ion-title {
+    color: rgb(255, 255, 255);
+}
+
+.boton {
+    color: rgb(255, 255, 255);
+    --background: rgb(0, 7, 41);
+}
+
+.logo {
+    text-align: center;
+}

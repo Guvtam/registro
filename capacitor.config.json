@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "RegistroAsistencia",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

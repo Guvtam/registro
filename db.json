@@ -1,0 +1,58 @@
+{
+  "users": [
+    { 
+      "id": "17945259-6",
+      "usuario":"dany.ossandon",
+      "nombre": "Danykza Ossandón",
+      "carrera": "Ingenieria Informática",
+      "email": "dany.ossandon@duocuc.cl",
+      "password":"1234567"
+
+      },
+
+    {
+      "id": "16676984-1",
+      "usuario":"dani.araneda",
+      "nombre": "Daniel Araneda",
+      "carrera": "Ingenieria Informática",
+      "email": "dani.araneda@duocuc.cl",
+      "password":"12345678"
+    }
+  ],
+
+  "adignatura": [
+    {
+      "Curso" : "Programación de Aplicaciones Móviles",
+      "Seccion": "007D"
+      },
+    {
+      "Curso" : "Arquitectura",
+      "Seccion": "008D"
+      },
+    {
+      "Curso" : "Calidad de Software",
+      "Seccion": "005D"
+      },
+    {
+      "Curso" : "Inglés Elemental",
+      "Seccion": "009D"
+      },
+    {
+      "Curso" : "Estadística Descriptiva",
+      "Seccion": "008D"
+      },
+    {
+      "Curso" : "Ética para el Trabajo",
+      "Seccion": "004D"
+      }
+  ],
+
+  "historial": [
+    {
+      "Curso" : "Inglés Elemental",
+      "Seccion": "009D",
+      "Fecha": "2-11-2021",
+      "Hora" : "11:05"
+      }
+  ]
+}
